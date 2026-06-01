@@ -1,0 +1,40 @@
+# ──────────────────────────────────────────────────────────────
+# Brain Tumor Segmentation & AI Report Generation
+# Requirements — tested on Google Colab (Python 3.10, CUDA 11.8)
+# ──────────────────────────────────────────────────────────────
+
+# Core deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Medical imaging
+monai>=1.3.0
+nibabel>=5.0.0
+einops>=0.7.0
+
+# Image registration & atlas
+antspyx>=0.4.2
+nilearn>=0.10.0
+siibra>=1.0.0
+
+# Data & ML utilities
+numpy>=1.24.0
+scikit-learn>=1.3.0
+tqdm>=4.65.0
+scipy>=1.11.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# AI report generation
+transformers>=4.40.0
+accelerate>=0.28.0
+huggingface_hub>=0.22.0
+bitsandbytes>=0.43.0
+requests>=2.31.0
+
+# Colab interactive widgets
+ipywidgets>=8.0.0
+
+# Notebook utilities
+ipython>=8.0.0
